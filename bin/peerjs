@@ -39,13 +39,11 @@ var path = require('path')
         },
         sslkey: {
             demand: false,
-            description: 'path to SSL key',
-            default: 'C:\\Users\\saber\\PhpstormProjects\\untitled1\\lib\\key.pem'
+            description: 'path to SSL key'
         },
         sslcert: {
             demand: false,
-            description: 'path to SSL certificate',
-            default: 'C:\\Users\\saber\\PhpstormProjects\\untitled1\\lib\\cert.pem'
+            description: 'path to SSL certificate'
         },
         port: {
             demand: false,
